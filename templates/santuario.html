@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1 class="title">Santuario de Las Lajas</h1>
+    <p>
+        Esta maravilla de Colombia desafía a diario a la naturaleza al estar ubicado en un abismo de 100 metros, en medio de
+        la falla del Guáitara y rodeado de 7 volcanes activos en Nariño. ¡Y no tiene ni una grieta! El Santuario se creó en
+        torno a un retrato de la Virgen que misteriosamente apareció pintado en una de las piedras lajas del lugar.
+
+        Conoce los mitos religiosos alrededor de la aparición de la Virgen de las Lajas, la creación de la pintura y la
+        difícil construcción por etapas de un santuario que se creó alrededor.
+    </p>
+    <a href="/"><img src="{{ url_for('static', filename='img/inicio.png') }}"></a>
+{% endblock %}

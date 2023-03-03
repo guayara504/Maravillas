@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1 class="title">Maravillas de Colombia</h1>
+    <center>
+        <a href="/astillero"><img src="{{ url_for('static', filename='img/Astillero Cotecmar.png') }}"/></a>
+        <a href="/castillo"><img src="{{ url_for('static', filename='img/Castillo-San-Felipe.png') }}"/></a>
+        <a href="/catedral"><img src="{{ url_for('static', filename='img/Catedral de sal de Zipaquirá.png') }}"/></a>
+        <a href="/santuario"><img src="{{ url_for('static', filename='img/Santuario-Lajas.png') }}"/></a>
+    </center>
+    
+{% endblock  %}

@@ -1,0 +1,16 @@
+body{
+    background-image: url('/static/img/fondo-page.jpg');
+    background-size: cover;
+}
+
+.title{
+    color: #ff0a33;
+    font-size:100px;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-size: 30px;
+}
